@@ -1,0 +1,16 @@
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	undo = reset --soft HEAD^
+	hist = log --pretty=format:'%C(yellow)%h%C(reset) %ad | %C(75)%s%C(reset) %C(yellow)%d%C(reset) [%an]' --graph --date=short --branches --all
+	stat = diff --stat
+	unst = restore --staged
+	wt = worktree
+[user]
+	email = d.zhebov@semrush.com
+	name = Denis Zhebov
+[url "git@gitlab.semrush.net:"]
+    insteadOf = https://gitlab.semrush.net/
